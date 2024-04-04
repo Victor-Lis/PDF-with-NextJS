@@ -1,4 +1,3 @@
-"use client"
 import PDF from './components/PDF'
 
 export default function Home() {
