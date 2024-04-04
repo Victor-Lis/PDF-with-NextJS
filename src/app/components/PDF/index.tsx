@@ -50,6 +50,7 @@ function BasicDocument() {
         <Page size="A4" style={styles.page}>
           <View style={styles.titleSection}>
             <Text style={styles.textCenter}>Documento gerado usando lib "@react-pdf/renderer"</Text>
+            <Text style={styles.textCenter}>Projeto feito por Dev Victor Lis (https://github.com/Victor-Lis)</Text>
           </View>
         </Page>
       </Document>
