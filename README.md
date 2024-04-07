@@ -10,6 +10,7 @@ Pesquisando algumas libs encontrei a lib [HTML2PDF](https://www.npmjs.com/packag
 npm i @react-pdf/renderer
 ```
 
+
 2- Import dos componentes desejados
 ```jsx
 import {
@@ -20,6 +21,27 @@ import {
   StyleSheet,
   PDFViewer,
 } from "@react-pdf/renderer";
+```
+
+
+3- Aplicação dos componentes, deixo abaixo um modelinho de página simples
+```jsx
+function BasicDocument() {
+  return (
+    <PDFViewer style={styles.viewer}>
+      {/* Start of the document*/}
+      <Document>
+        {/*render a single page*/}
+        <Page size="A4" style={styles.page}>
+          <View style={styles.titleSection}>
+            <Text style={styles.textCenter}>Documento gerado usando lib "@react-pdf/renderer"</Text>
+            <Text style={styles.textCenter}>Projeto feito por Dev Victor Lis (https://github.com/Victor-Lis)</Text>
+          </View>
+        </Page>
+      </Document>
+    </PDFViewer>
+  );
+}
 ```
 
 ## Autores
