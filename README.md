@@ -45,10 +45,9 @@ function BasicDocument() {
 ```
 
 ## Observação importante!
-Como o próprio nome já sugere a lib é feita sendo planejada para o React Vanilla, sendo assim ela precisa rodar no Client-Side, então ao utilizar essa lib com next precisamos deixar a marcação "use client" no topo do componente que usa a lib. Seguindo o modelo abaixo:
+Como o próprio nome já sugere a lib é feita sendo planejada para o React Vanilla, sendo assim ela precisa rodar no Client-Side, então ao utilizar essa lib com Next precisamos deixar a marcação 'use client' no topo do componente que usa a lib. Seguindo o modelo abaixo na primeira linha:
 ```jsx
 'use client'
-... restante do código ...
 ```
 
 ## Autores
